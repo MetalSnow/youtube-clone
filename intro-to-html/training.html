@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SouadAymane</title>
+
+<style>
+ .grid {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  column-gap: 0px;
+  background-color: lightpink;
+ } 
+.matching-pfp {
+  width: 100px;
+  height: 115px;
+}
+.user-name {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+}
+.smol-pfp {
+  width: 30px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.stats {
+  font-family: arial;
+  font-size: 10px;
+  font-weight: 400;
+  color: gray;
+  display: inline-block;
+  vertical-align: top;
+}
+.button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15;
+  cursor: pointer;
+  margin-left: 1px;
+  transition: box-shadow 0.15s;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+</style>
+</head>
+<body>
+<div class="grid">
+  <div class="souad">
+    <div>
+      <img class="matching-pfp" src="thumbnails/thumbnail-matching.jpg">
+    </div>
+    <div>
+      <p class="user-name">Souad Elouadi</p>
+      <img class="smol-pfp" src="thumbnails/thumbnail-manami.jpg">
+      <p class="stats">3 mutual friends</p>
+    </div>
+    <div>
+      <button class="button">Add Friend</button>
+    </div>
+  </div>
+  
+  <div class="aymane">
+    <div>
+      <img class="matching-pfp" src="thumbnails/thumbnail-metal.jpg">
+    </div>
+    <div>
+      <p class="user-name">Aymane Saigou</p>
+      <img class="smol-pfp" src="thumbnails/thumbnail-aymane.jpg">
+      <p class="stats">2 mutual friends</p>
+    </div>
+    <div><button class="button">Add Friend</button></div>
+  </div>
+
+</div>
+
+
+
+</body>
+
+
+</html>
